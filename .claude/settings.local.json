@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-vite@latest . --template react)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
