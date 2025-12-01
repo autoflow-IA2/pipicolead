@@ -6,10 +6,10 @@ FROM node:18-alpine AS builder
 WORKDIR /app
 
 # Copiar arquivos de dependências
-COPY package*.json ./
+COPY package.json package-lock.json ./
 
-# Instalar dependências
-RUN npm ci --legacy-peer-deps
+# Instalar dependências (npm install é mais tolerante que npm ci)
+RUN npm install --production=false
 
 # Copiar código fonte
 COPY . .
