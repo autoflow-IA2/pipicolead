@@ -1,0 +1,44 @@
+# Dependências
+node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build
+dist
+build
+.vite
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Misc
+README.md
+CLAUDE.md
+.editorconfig

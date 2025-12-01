@@ -35,7 +35,7 @@ function App() {
     return () => clearInterval(timer);
   }, []);
 
-  const whatsappNumber = "5511999999999";
+  const whatsappNumber = "553187953693";
   const whatsappBase = `https://wa.me/${whatsappNumber}`;
 
   return (
